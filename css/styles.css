@@ -242,7 +242,8 @@ body {
 	text-shadow: none;
 }
 
-.btn-primary {
+.btn-primary,
+.btnsignup {
 	background: #fff;
 	border: 1px solid #D31920;
 	color: #D31920;
@@ -250,7 +251,10 @@ body {
 
 .btn-primary:hover,
 .btn-primary:active,
-.btn-primary:focus {
+.btn-primary:focus,
+.btnsignup:hover,
+.btnsignup:active,
+.btnsignup:focus {
 	background: #D31920;
 	border: 1px solid #D31920;
 	color: #fff;
@@ -304,7 +308,11 @@ article h2 {
 	text-align: center;
 }
 
-
+.btnsignup {
+  width: 100%;
+  margin-top: 10px;
+  margin-bottom: 5px;
+}
 
 
 
