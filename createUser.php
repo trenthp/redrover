@@ -31,7 +31,7 @@ $query .= " values ('" .$username."', '".$pwd."' , '".$bizname."' , '".$contactF
 
 //connect to the database
 //$db = mysqli_connect("localhost", "database userid", "database user password", database);
-$db = mysqli_connect("localhost", "root", "", "redrover");
+$db = mysqli_connect("redroversql.cyn207s6dony.us-west-2.rds.amazonaws.com", "redrover", "startupweekend", "redrover");
 
 //create a variable string to execute the database insert statement
 $result = mysqli_query($db, $query);
