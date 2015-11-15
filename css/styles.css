@@ -291,7 +291,11 @@ footer {
 
 .signuppanel {
 	margin-top: 30px;
-	margin-bottom: 50px;
+	margin-bottom: 100px;
+}
+
+.signuphr {
+  margin-top: 40px;
 }
 
 .panel-heading h3 {
@@ -303,6 +307,7 @@ article {
 	padding-top: 100px;
 }
 
+article h1,
 article h2 {
 	color: #fff;
 	text-align: center;
@@ -314,11 +319,27 @@ article h2 {
   margin-bottom: 5px;
 }
 
+header {
+  width: 100%;
+  margin: auto;
+  position: relative;
+  text-align: center;
+  margin-bottom: 20px;
+}
 
+header img {
+  height: 50px;
+}
 
+.thankyou {
+  padding-bottom: 100px;
+}
 
-
-
+.thankyouh3 {
+  color: #fff;
+  text-align: center;
+  margin-top: 50px;
+}
 
 
 
