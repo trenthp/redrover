@@ -270,6 +270,7 @@ body {
 
 .navbar {
 	background: #fff;
+  margin-bottom: 0;
 }
 
 .footerlogo img {
@@ -341,12 +342,27 @@ header img {
   margin-top: 50px;
 }
 
+@media (max-width: 767px) {
 
+  .carousel-caption {
+    width: 100%;
 
+}
 
+@media (max-width: 767px){
+.carousel .item {
+    height: auto;
+}
 
+}
 
+.carousel-inner > .item > img {
+  max-width: auto;
+}
 
+.carousel-inner > .item > img {
+  max-width: auto;
+}
 
 
 
