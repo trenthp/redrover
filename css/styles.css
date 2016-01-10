@@ -528,10 +528,6 @@ footer .footer-below {
     margin: 0 auto;
 }
 
-.btnsign {
-    border-color; #fff;
-}
-
 .btn {
     background: #d32d27;
     border-color: #d32d27; 
@@ -552,6 +548,9 @@ footer .footer-below {
     border-color: #2c3e50;
 }
 
+.btnsign {
+    border-color; #fff;
+}
 
 
 article {
