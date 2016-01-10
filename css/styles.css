@@ -549,7 +549,13 @@ footer .footer-below {
 }
 
 .btnsign {
-    border-color; #fff;
+    border-color: #fff;
+}
+
+.btnsign:hover {
+    background: #fff;
+    color: #d32d27;
+    border-color: #fff;
 }
 
 
